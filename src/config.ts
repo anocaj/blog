@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://anocaj.github.io/blog/",
+  website: "https://anocaj.github.io/",
   author: "Alban",
   profile: "https://github.com/anocaj",
   desc: "Building database internals from first principles. Weekly deep-dives into the algorithms powering modern databases.",
