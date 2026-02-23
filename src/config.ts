@@ -1,0 +1,23 @@
+export const SITE = {
+  website: "https://anocaj.github.io/blog/",
+  author: "Alban",
+  profile: "https://github.com/anocaj",
+  desc: "Building database internals from first principles. Weekly deep-dives into the algorithms powering modern databases.",
+  title: "DB Internals",
+  ogImage: "og.jpg",
+  lightAndDarkMode: true,
+  postPerIndex: 5,
+  postPerPage: 5,
+  scheduledPostMargin: 15 * 60 * 1000,
+  showArchives: true,
+  showBackButton: true,
+  editPost: {
+    enabled: true,
+    text: "Edit on GitHub",
+    url: "https://github.com/anocaj/blog/edit/main/src/data/blog/",
+  },
+  dynamicOgImage: true,
+  dir: "ltr",
+  lang: "en",
+  timezone: "Europe/Berlin",
+} as const;
