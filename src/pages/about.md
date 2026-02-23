@@ -3,35 +3,31 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Hi, I'm **Alban** — a software engineer interested in how databases work under the hood.
 
-![Astro Paper](public/astropaper-og.jpg)
+This blog is a learning journal. Each post documents the implementation of a core database algorithm from first principles — the kind of stuff that powers PostgreSQL, RocksDB, ClickHouse, and Cassandra.
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+The goal isn't just to write the code. It's to understand *why* each structure exists, what problem it solves, and what tradeoffs it makes.
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+## The Series
 
-## Features
+All implementations live in [anocaj/db-internals](https://github.com/anocaj/db-internals) — a C++17 educational repository built week by week.
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+| Week | Topic | Status |
+|------|-------|--------|
+| 1 | Hash Index | ✅ Done |
+| 2 | LSM Tree | Coming soon |
+| 3 | Columnar Storage | Coming soon |
+| 4 | Buffer Pool Manager | Coming soon |
+| 5 | Query Engine | Coming soon |
+| 6 | Concurrency / MVCC | Coming soon |
+| 7 | WAL & Recovery | Coming soon |
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+## Other Projects
 
-and so much more.
+- [profilesprout](https://github.com/anocaj/profilesprout) — Chrome extension built with Svelte
+- [mini-data-cloud](https://github.com/anocaj/mini-data-cloud) — distributed query engine with Java, Apache Arrow, and Iceberg
 
-## Show your support
+## Get in Touch
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+Find me on [GitHub](https://github.com/anocaj).
