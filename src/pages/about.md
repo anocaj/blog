@@ -25,7 +25,6 @@ All implementations live in [anocaj/db-internals](https://github.com/anocaj/db-i
 
 ## Other Projects
 
-- [profilesprout](https://github.com/anocaj/profilesprout) — Chrome extension built with Svelte
 - [mini-data-cloud](https://github.com/anocaj/mini-data-cloud) — distributed query engine with Java, Apache Arrow, and Iceberg
 
 ## Get in Touch
