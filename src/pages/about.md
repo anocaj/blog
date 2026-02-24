@@ -18,7 +18,7 @@ All code lives in [anocaj/db-internals](https://github.com/anocaj/db-internals).
 | Week | Topic | Post | Code |
 |------|-------|------|------|
 | 1 | Hash Index | [Read →](/blog/posts/week-1-hash-index/) | ✅ Done |
-| 2 | LSM Tree | Coming soon | — |
+| 2 | LSM Tree | [Read →](/blog/posts/week-2-lsm-tree/) | ✅ Done |
 | 3 | Columnar Storage | Coming soon | — |
 | 4 | Buffer Pool Manager | Coming soon | — |
 | 5 | Query Engine | Coming soon | — |
@@ -34,7 +34,7 @@ Every week, a companion post mapping that week's data structure to where it show
 | Week | DB Concept | AI/LLM Equivalent | Post |
 |------|------------|-------------------|------|
 | 1 | Hash Index | KV Cache, MQA/GQA, PagedAttention | [Read →](/blog/posts/llm-1-kv-cache/) |
-| 2 | LSM Tree | Vector store ingestion, HNSW write buffering | Coming soon |
+| 2 | LSM Tree | Vector store ingestion, HNSW write buffering | [Read →](/blog/posts/llm-2-lsm-tree/) |
 | 3 | Columnar Storage | Tensor memory layouts, FlashAttention tiling | Coming soon |
 | 4 | Buffer Pool Manager | PagedAttention, context window eviction | Coming soon |
 | 5 | Query Engine | RAG pipelines, retrieval as hash join | Coming soon |
